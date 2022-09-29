@@ -1,14 +1,12 @@
 """
-Project: Hangman.py
+Project: sports_quiz.py
 Author: Brock Bacon
 Date: 9/29/2022
 """
 
-import random
-words = ['chicken', 'dog', 'cat', 'mouse', 'frog']
-lives_remaining = 10
-guessed_letters = ''
-def pick_a_word():
-    word_position = random.randint(0, len(words) - 1)
-    return words[word_position]
-print(pick_a_word())
+# Set up whether they get the answer right
+
+# Have a list of sports questions to go through
+
+# Display how they did out of 10
+
