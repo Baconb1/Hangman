@@ -25,9 +25,9 @@ questions = ["How many years apart is each world cup in soccer/football?\n->",
 answers = ["4","soccer","6","knicks","49ers","dolphins","1903","9","6","ace"]
 
 
-print("---------------------------------")
-print("You are running Brocks sports quiz")
-print("---------------------------------\n")
+print("------------------")
+print("Brocks sports quiz")
+print("------------------\n")
 
 # Set up whether they get the answer right
 question = random.sample(range(1, len(questions) + 1), len(questions))
@@ -43,5 +43,16 @@ for num in question:
 # Display how they did out of 10
 print("Your final score is",score,"out of 10\n")
 
+if score >= 8:
+    print("Your sports knowledge is very good.")
+elif score >=6:
+    print("Your sports knowledge is pretty good.")
+elif score >=4:
+    print("Your sports knowledge is decent.")
+elif score >=2:
+    print("Your sports knowledge is not very good.")
+else:
+    print("You must not watch sports much.")
+print("")
 input("Press ENTER to exit")
 
